@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Addition 2 numbers</title>
+  <style>
+    input { font-size: large; }
+  </style>
+</head>
+<body>
+  <h1>Tambahkan Dua Angka</h1>
+
+  <div class="calc">
+    <input type="text" name="" id="" size="5" placeholder="0">
+    +
+    <input type="text" name="" id="" size="5" placeholder="0">
+
+    <button> = </button>
+    <input type="text" name="" id="" size="5" readonly>
+  </div>
+
+  <script>
+    // main.js
+    function calc() {
+      let angka = document.querySelectorAll('input');
+      let first = parseInt(angka[0].value); // angka pertama
+      let second = parseInt(angka[1].value); // angka kedua
+      angka[2].value = first + second;
+    }
+    let tombol = document.querySelector('button');
+    tombol.addEventListener('click', calc);
+  </script>
+</body>
+</html>

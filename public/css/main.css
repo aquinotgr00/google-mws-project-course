@@ -1,0 +1,18 @@
+
+input#toggle-nav {
+  display: none;
+}
+nav ul.navigation-list {
+  height: 0;
+  /* display: none; */
+  overflow: hidden;
+  background: red;
+  transition: height .3s ease;
+  -webkit-transition: height .3s ease;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+input#toggle-nav:checked + .navigation-list {
+  height: 100px;
+  display: block;
+}

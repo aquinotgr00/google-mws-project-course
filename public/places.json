@@ -1,0 +1,16 @@
+{
+  "places":[
+    {
+      "lokasi": [-6.221028, 106.791434],
+      "sponsor" : "Resto Spanyol",
+      "gambar":"images/planB.jpeg",
+      "review": "restoran spanyol terbaik di Jakarta"
+    },
+    {
+      "lokasi": [-6.219912, 106.791239],
+      "sponsor" : "Warung Kopi",
+      "gambar": "images/warkop.jpeg",
+      "review": "Mahal kali oee kopi nyaa."
+    }
+  ]
+}
