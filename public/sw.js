@@ -1,7 +1,7 @@
 
 (function () {
   'use strict';
-  const version = "0.2.0";
+  const version = "0.2.1";
   const staticCacheName = `mws-${version}`;
   self.addEventListener('install', e => {
     e.waitUntil(
@@ -21,7 +21,7 @@
           '/tugas2.html',
           '/tugas3.html',
           '/map.js',
-          '/map.css',
+          '/css/map.css',
           '/places.json',
           '/offline.html',
           '/css/main.css',
