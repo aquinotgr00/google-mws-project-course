@@ -24,6 +24,9 @@ body {
   background: green;
   grid-column: 1/6;
 }
+.gambar img {
+  width: 100%;
+}
 
 .review {
   background: yellow;
